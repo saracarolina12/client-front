@@ -1,7 +1,7 @@
 import axios from "axios";
  
 // const url = "http://localhost:8000/todos";
-const url = "https://todo-backserv.herokuapp.com/"
+const url = "https://todo-backserv.herokuapp.com/todos"
  
 export const getTodos = () => axios.get(url);
  
