@@ -33,7 +33,7 @@ function ShowInfo(){
         // console.log("Todos");
         const fetchData = async() => {
             const result = await getTodos();
-            setState(result);                       //guardo el fetch
+            setState([result]);                       //guardo el fetch
             // console.log('Fetched data', result);
         };
         fetchData();
